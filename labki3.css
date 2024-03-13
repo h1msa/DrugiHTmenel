@@ -1,0 +1,54 @@
+/* tagName{attribute:value;}
+.className{}
+#idname{} */
+body
+{
+    /* bg-co */
+    background-color: #aaa;
+    color: black;
+    /* color: red; */
+    /* color: rgb(255, 0, 0); */
+    /* color: #rgb; */
+    /* HEX: 0-9, A-F*/
+    /* color: #rrggbb;*/
+
+}
+.button a
+{
+    background-color: #faa;
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+.container, .button, .footer
+{
+    /* background-color: aqua; */
+    /* w800 */
+    width: 800px;
+    /* h600 */
+    /* height: 600px; */
+    /* m20-a */
+    margin: 20px auto;
+    text-align: center; 
+    /* text allign byl dodany  */
+}
+/* to jest chujowy sposób na zapisanie tego
+#block1, #block2
+{
+    background-color: chocolate;
+
+}
+*/
+
+/* ctrl + slash -> quick comment */
+.container div
+{
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    /* padding|margin: top right bottom left; */
+    /*padding: 10px 20px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px 30px 40px;
+    padding-left: 10px; */
+}
